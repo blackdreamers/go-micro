@@ -26,7 +26,31 @@ func Init(opts ...Option) error {
 	return DefaultLogger.Init(opts...)
 }
 
-func Fields(fields map[string]interface{}) Logger {
+func Field(key string, value interface{}) Logger {
+	return DefaultLogger.Fields(map[string]interface{}{
+		key: value,
+	})
+}
+
+func Fields(keysAndValues ...interface{}) Logger {
+	fields := make(map[string]interface{})
+
+	if len(keysAndValues) == 0 {
+		return DefaultLogger
+	}
+
+	for i := 0; i < len(keysAndValues); {
+		key := keysAndValues[i]
+		if keyStr, ok := key.(string); ok {
+			if i+1 < len(keysAndValues) {
+				fields[keyStr] = keysAndValues[i+1]
+			} else {
+				fields[keyStr] = ""
+			}
+		}
+		i += 2
+	}
+
 	return DefaultLogger.Fields(fields)
 }
 
