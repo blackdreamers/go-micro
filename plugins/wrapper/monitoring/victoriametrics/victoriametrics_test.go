@@ -10,10 +10,10 @@ import (
 	"testing"
 
 	metrics "github.com/VictoriaMetrics/metrics"
-	"github.com/asim/go-micro/v3/client"
-	"github.com/asim/go-micro/v3/selector"
-	"github.com/asim/go-micro/plugins/registry/memory/v3"
-	"github.com/asim/go-micro/v3/server"
+	"github.com/blackdreamers/go-micro/v3/client"
+	"github.com/blackdreamers/go-micro/v3/selector"
+	"github.com/blackdreamers/go-micro/plugins/registry/memory/v3"
+	"github.com/blackdreamers/go-micro/v3/server"
 	"github.com/stretchr/testify/assert"
 )
 

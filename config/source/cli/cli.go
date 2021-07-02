@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/asim/go-micro/v3/cmd"
-	"github.com/asim/go-micro/v3/config/source"
+	"github.com/blackdreamers/go-micro/v3/cmd"
+	"github.com/blackdreamers/go-micro/v3/config/source"
 	"github.com/imdario/mergo"
 	"github.com/micro/cli/v2"
 )

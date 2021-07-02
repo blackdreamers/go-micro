@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/asim/go-micro/v3/client"
-	"github.com/asim/go-micro/v3/selector"
-	"github.com/asim/go-micro/v3/cmd"
-	"github.com/asim/go-micro/v3/registry"
+	"github.com/blackdreamers/go-micro/v3/client"
+	"github.com/blackdreamers/go-micro/v3/selector"
+	"github.com/blackdreamers/go-micro/v3/cmd"
+	"github.com/blackdreamers/go-micro/v3/registry"
 
-	example "github.com/asim/go-micro/examples/v3/server/proto/example"
+	example "github.com/blackdreamers/go-micro/examples/v3/server/proto/example"
 )
 
 // Built in random hashed node selector

@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/asim/go-micro/v3/client"
-	"github.com/asim/go-micro/v3/logger"
-	"github.com/asim/go-micro/v3/registry"
-	"github.com/asim/go-micro/v3/server"
+	"github.com/blackdreamers/go-micro/v3/client"
+	"github.com/blackdreamers/go-micro/v3/logger"
+	"github.com/blackdreamers/go-micro/v3/registry"
+	"github.com/blackdreamers/go-micro/v3/server"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

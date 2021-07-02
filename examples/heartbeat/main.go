@@ -3,8 +3,8 @@ package main
 import (
 	"time"
 
-	"github.com/asim/go-micro/v3"
-	"github.com/asim/go-micro/v3/util/log"
+	"github.com/blackdreamers/go-micro/v3"
+	"github.com/blackdreamers/go-micro/v3/util/log"
 )
 
 func main() {

@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/asim/go-micro/examples/v3/filter/version"
-	proto "github.com/asim/go-micro/examples/v3/service/proto"
-	"github.com/asim/go-micro/v3"
+	"github.com/blackdreamers/go-micro/examples/v3/filter/version"
+	proto "github.com/blackdreamers/go-micro/examples/v3/service/proto"
+	"github.com/blackdreamers/go-micro/v3"
 )
 
 func main() {

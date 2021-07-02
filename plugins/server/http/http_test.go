@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/asim/go-micro/plugins/registry/memory/v3"
-	"github.com/asim/go-micro/v3/server"
+	"github.com/blackdreamers/go-micro/plugins/registry/memory/v3"
+	"github.com/blackdreamers/go-micro/v3/server"
 )
 
 func TestHTTPServer(t *testing.T) {

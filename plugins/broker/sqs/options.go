@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/aws/aws-sdk-go/service/sqs"
-	"github.com/asim/go-micro/v3/broker"
+	"github.com/blackdreamers/go-micro/v3/broker"
 )
 
 type sqsClientKey struct{}

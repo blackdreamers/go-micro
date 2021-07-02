@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/asim/go-micro/v3/util/ring"
+	"github.com/blackdreamers/go-micro/v3/util/ring"
 	"github.com/google/uuid"
 )
 

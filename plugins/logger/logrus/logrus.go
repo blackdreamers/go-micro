@@ -7,7 +7,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/asim/go-micro/v3/logger"
+	"github.com/blackdreamers/go-micro/v3/logger"
 )
 
 type entryLogger interface {

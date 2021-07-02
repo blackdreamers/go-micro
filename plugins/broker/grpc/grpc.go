@@ -14,16 +14,16 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/asim/go-micro/v3/broker"
-	"github.com/asim/go-micro/v3/cmd"
-	merr "github.com/asim/go-micro/v3/errors"
-	log "github.com/asim/go-micro/v3/logger"
-	"github.com/asim/go-micro/v3/registry"
-	"github.com/asim/go-micro/v3/registry/cache"
-	maddr "github.com/asim/go-micro/v3/util/addr"
-	mnet "github.com/asim/go-micro/v3/util/net"
-	mls "github.com/asim/go-micro/v3/util/tls"
-	proto "github.com/asim/go-micro/plugins/broker/grpc/v3/proto"
+	"github.com/blackdreamers/go-micro/v3/broker"
+	"github.com/blackdreamers/go-micro/v3/cmd"
+	merr "github.com/blackdreamers/go-micro/v3/errors"
+	log "github.com/blackdreamers/go-micro/v3/logger"
+	"github.com/blackdreamers/go-micro/v3/registry"
+	"github.com/blackdreamers/go-micro/v3/registry/cache"
+	maddr "github.com/blackdreamers/go-micro/v3/util/addr"
+	mnet "github.com/blackdreamers/go-micro/v3/util/net"
+	mls "github.com/blackdreamers/go-micro/v3/util/tls"
+	proto "github.com/blackdreamers/go-micro/plugins/broker/grpc/v3/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )
@@ -62,7 +62,7 @@ type grpcEvent struct {
 }
 
 var (
-	registryKey = "github.com/asim/go-micro/v3/registry"
+	registryKey = "github.com/blackdreamers/go-micro/v3/registry"
 
 	broadcastVersion = "ff.grpc.broadcast"
 	registerTTL      = time.Minute

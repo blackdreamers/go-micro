@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	proto "github.com/asim/go-micro/examples/v3/service/proto"
-	"github.com/asim/go-micro/v3"
-	"github.com/asim/go-micro/v3/metadata"
+	proto "github.com/blackdreamers/go-micro/examples/v3/service/proto"
+	"github.com/blackdreamers/go-micro/v3"
+	"github.com/blackdreamers/go-micro/v3/metadata"
 )
 
 type Greeter struct{}

@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/micro/cli/v2"
-	"github.com/asim/go-micro/v3"
+	"github.com/blackdreamers/go-micro/v3"
 )
 
 func main() {

@@ -4,10 +4,10 @@ import (
 	"context"
 	"log"
 
-	httpClient "github.com/asim/go-micro/plugins/client/http/v3"
-	"github.com/asim/go-micro/v3/client"
-	"github.com/asim/go-micro/v3/registry"
-	"github.com/asim/go-micro/v3/selector"
+	httpClient "github.com/blackdreamers/go-micro/plugins/client/http/v3"
+	"github.com/blackdreamers/go-micro/v3/client"
+	"github.com/blackdreamers/go-micro/v3/registry"
+	"github.com/blackdreamers/go-micro/v3/selector"
 )
 
 func main() {

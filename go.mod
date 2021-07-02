@@ -1,4 +1,4 @@
-module github.com/asim/go-micro/v3
+module github.com/blackdreamers/go-micro/v3
 
 go 1.16
 
@@ -30,4 +30,4 @@ require (
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 )
 
-replace github.com/asim/go-micro/v3 => ../go-micro
+replace github.com/blackdreamers/go-micro/v3 => ../go-micro

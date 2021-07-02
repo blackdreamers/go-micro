@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	maddr "github.com/asim/go-micro/v3/util/addr"
-	mnet "github.com/asim/go-micro/v3/util/net"
+	maddr "github.com/blackdreamers/go-micro/v3/util/addr"
+	mnet "github.com/blackdreamers/go-micro/v3/util/net"
 )
 
 type memorySocket struct {

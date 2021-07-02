@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"strings"
 
-	api "github.com/asim/go-micro/v3/api/proto"
-	"github.com/asim/go-micro/v3/registry"
-	"github.com/asim/go-micro/v3/selector"
+	api "github.com/blackdreamers/go-micro/v3/api/proto"
+	"github.com/blackdreamers/go-micro/v3/registry"
+	"github.com/blackdreamers/go-micro/v3/selector"
 	"github.com/oxtoacart/bpool"
 )
 

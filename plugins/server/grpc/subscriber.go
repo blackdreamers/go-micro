@@ -7,12 +7,12 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/asim/go-micro/v3/broker"
-	"github.com/asim/go-micro/v3/errors"
-	"github.com/asim/go-micro/v3/logger"
-	"github.com/asim/go-micro/v3/metadata"
-	"github.com/asim/go-micro/v3/registry"
-	"github.com/asim/go-micro/v3/server"
+	"github.com/blackdreamers/go-micro/v3/broker"
+	"github.com/blackdreamers/go-micro/v3/errors"
+	"github.com/blackdreamers/go-micro/v3/logger"
+	"github.com/blackdreamers/go-micro/v3/metadata"
+	"github.com/blackdreamers/go-micro/v3/registry"
+	"github.com/blackdreamers/go-micro/v3/server"
 )
 
 const (

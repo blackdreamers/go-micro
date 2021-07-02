@@ -3,10 +3,10 @@ package mucp
 import (
 	"context"
 
-	"github.com/asim/go-micro/v3/cmd"
-	"github.com/asim/go-micro/v3/config/source"
-	log "github.com/asim/go-micro/v3/logger"
-	proto "github.com/asim/go-micro/plugins/config/source/mucp/v3/proto"
+	"github.com/blackdreamers/go-micro/v3/cmd"
+	"github.com/blackdreamers/go-micro/v3/config/source"
+	log "github.com/blackdreamers/go-micro/v3/logger"
+	proto "github.com/blackdreamers/go-micro/plugins/config/source/mucp/v3/proto"
 )
 
 var (

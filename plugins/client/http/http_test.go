@@ -10,11 +10,11 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/asim/go-micro/plugins/client/http/v3/test"
-	"github.com/asim/go-micro/plugins/registry/memory/v3"
-	"github.com/asim/go-micro/v3/client"
-	"github.com/asim/go-micro/v3/registry"
-	"github.com/asim/go-micro/v3/selector"
+	"github.com/blackdreamers/go-micro/plugins/client/http/v3/test"
+	"github.com/blackdreamers/go-micro/plugins/registry/memory/v3"
+	"github.com/blackdreamers/go-micro/v3/client"
+	"github.com/blackdreamers/go-micro/v3/registry"
+	"github.com/blackdreamers/go-micro/v3/selector"
 )
 
 func TestHTTPClient(t *testing.T) {

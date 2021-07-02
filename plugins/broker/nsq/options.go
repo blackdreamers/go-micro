@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/asim/go-micro/v3/broker"
+	"github.com/blackdreamers/go-micro/v3/broker"
 	nsq "github.com/nsqio/go-nsq"
 )
 

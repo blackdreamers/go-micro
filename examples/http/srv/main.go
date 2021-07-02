@@ -3,11 +3,11 @@ package main
 import (
 	"log"
 
-	httpServer "github.com/asim/go-micro/plugins/server/http/v3"
-	"github.com/asim/go-micro/v3"
+	httpServer "github.com/blackdreamers/go-micro/plugins/server/http/v3"
+	"github.com/blackdreamers/go-micro/v3"
 
-	"github.com/asim/go-micro/v3/registry"
-	"github.com/asim/go-micro/v3/server"
+	"github.com/blackdreamers/go-micro/v3/registry"
+	"github.com/blackdreamers/go-micro/v3/server"
 	"github.com/gin-gonic/gin"
 )
 

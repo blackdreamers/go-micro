@@ -8,13 +8,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/asim/go-micro/v3/api"
-	"github.com/asim/go-micro/v3/api/router"
-	"github.com/asim/go-micro/v3/api/router/util"
-	"github.com/asim/go-micro/v3/logger"
-	"github.com/asim/go-micro/v3/metadata"
-	"github.com/asim/go-micro/v3/registry"
-	rutil "github.com/asim/go-micro/v3/util/registry"
+	"github.com/blackdreamers/go-micro/v3/api"
+	"github.com/blackdreamers/go-micro/v3/api/router"
+	"github.com/blackdreamers/go-micro/v3/api/router/util"
+	"github.com/blackdreamers/go-micro/v3/logger"
+	"github.com/blackdreamers/go-micro/v3/metadata"
+	"github.com/blackdreamers/go-micro/v3/registry"
+	rutil "github.com/blackdreamers/go-micro/v3/util/registry"
 )
 
 type endpoint struct {

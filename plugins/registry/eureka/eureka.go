@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/hudl/fargo"
-	"github.com/asim/go-micro/v3/cmd"
-	"github.com/asim/go-micro/v3/registry"
+	"github.com/blackdreamers/go-micro/v3/cmd"
+	"github.com/blackdreamers/go-micro/v3/registry"
 	"github.com/op/go-logging"
 )
 

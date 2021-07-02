@@ -5,10 +5,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/asim/go-micro/v3/auth"
-	"github.com/asim/go-micro/v3/client"
-	"github.com/asim/go-micro/v3/metadata"
-	"github.com/asim/go-micro/v3/server"
+	"github.com/blackdreamers/go-micro/v3/auth"
+	"github.com/blackdreamers/go-micro/v3/client"
+	"github.com/blackdreamers/go-micro/v3/metadata"
+	"github.com/blackdreamers/go-micro/v3/server"
 )
 
 func TestWrapper(t *testing.T) {

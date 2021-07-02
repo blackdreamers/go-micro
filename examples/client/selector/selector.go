@@ -6,11 +6,11 @@ import (
 	"math/rand"
 	"time"
 
-	example "github.com/asim/go-micro/examples/v3/server/proto/example"
-	"github.com/asim/go-micro/v3/client"
-	"github.com/asim/go-micro/v3/selector"
-	"github.com/asim/go-micro/v3/cmd"
-	"github.com/asim/go-micro/v3/registry"
+	example "github.com/blackdreamers/go-micro/examples/v3/server/proto/example"
+	"github.com/blackdreamers/go-micro/v3/client"
+	"github.com/blackdreamers/go-micro/v3/selector"
+	"github.com/blackdreamers/go-micro/v3/cmd"
+	"github.com/blackdreamers/go-micro/v3/registry"
 )
 
 func init() {

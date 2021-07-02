@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/asim/go-micro/v3/client"
-	"github.com/asim/go-micro/v3/transport"
+	"github.com/blackdreamers/go-micro/v3/client"
+	"github.com/blackdreamers/go-micro/v3/transport"
 
-	hello "github.com/asim/go-micro/examples/v3/greeter/srv/proto/hello"
+	hello "github.com/blackdreamers/go-micro/examples/v3/greeter/srv/proto/hello"
 
 	"context"
 )
