@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
+	simple "github.com/bitly/go-simplejson"
 	"github.com/blackdreamers/go-micro/v3/config/reader"
 	"github.com/blackdreamers/go-micro/v3/config/source"
-	simple "github.com/bitly/go-simplejson"
 )
 
 type jsonValues struct {
@@ -157,7 +157,7 @@ func (j *jsonValue) StringSlice(def []string) []string {
 	v, err := j.Json.String()
 	if err == nil {
 		sl := strings.Split(v, ",")
-		if len(sl) > 1 {
+		if len(sl) > 0 {
 			return sl
 		}
 	}
