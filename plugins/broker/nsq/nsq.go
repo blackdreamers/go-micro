@@ -8,10 +8,11 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/blackdreamers/go-micro/v3/broker"
-	"github.com/blackdreamers/go-micro/v3/codec/json"
-	"github.com/blackdreamers/go-micro/v3/cmd"
 	"github.com/nsqio/go-nsq"
+
+	"github.com/blackdreamers/go-micro/v3/broker"
+	"github.com/blackdreamers/go-micro/v3/cmd"
+	"github.com/blackdreamers/go-micro/v3/codec/json"
 )
 
 type nsqBroker struct {
@@ -266,7 +267,7 @@ func (n *nsqBroker) Subscribe(topic string, handler broker.Handler, opts ...brok
 			return err
 		}
 
-		p := &publication{topic: topic, m: &m}
+		p := &publication{topic: topic, nm: nm, m: &m}
 		p.err = handler(p)
 		return p.err
 	})
